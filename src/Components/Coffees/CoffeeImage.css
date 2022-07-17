@@ -1,4 +1,23 @@
 .coffee-image {
- width: 30%;
- margin: 30px
+ width: 100%;
+ border: 3px solid black;
+ box-shadow: 0 0 200px 0px black inset, 0 0 3px 0px black;
+}
+
+.coffee-text {
+ font-size: 3.5rem;
+ font-weight:700;
+ color: #361500;
+ margin-top:30px;
+}
+
+.coffee-blurb {
+ color: #361500;
+ font-size: 1.5rem;
+ font-weight:500;
+}
+
+.coffee-container {
+ margin: 0 auto;
+ text-align: left;
 }

@@ -1,0 +1,13 @@
+.flavor-wheel {
+ width: 80%;
+ margin: 30px;
+}
+
+.chart {
+ position: absolute;
+ bottom: 0px;
+}
+
+.remove a{
+ visibility: hidden;
+}

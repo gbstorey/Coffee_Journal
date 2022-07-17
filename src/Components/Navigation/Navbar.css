@@ -1,14 +1,11 @@
-.navbar {
- background-color: #9D5C0D;
-}
-
-.navbar-brand {
- margin: 0 auto;
-}
-
 .navbar-brand__text {
  font-size: 4rem;
  font-weight:700;
  color: #F7D08A;
+}
+
+.container {
+ padding: 0;
+ margin: 0 100px;
 }
 
