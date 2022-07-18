@@ -5,9 +5,13 @@ import CoffeeImage from "./Components/Coffees/CoffeeImage";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import CanvasJSReact from './canvasjs.react';
-var CanvasJS = CanvasJSReact.CanvasJS;
-var CanvasJSChart = CanvasJSReact.CanvasJSChart;
+
+const stats = [
+  { label: "acidity", value: 2 },
+  { label: "body", value: 3 },
+  { label: "smooth", value: 3 },
+  { label: "sweet", value: 3 },
+];
 
 function App() {
   return (
@@ -17,9 +21,7 @@ function App() {
         <Row>
           <Col>
             <CoffeeImage />
-          </Col>
-          <Col xs={12} md={6}  className="chart">
-            <FlavorChart />
+            <FlavorChart stats={stats} />
           </Col>
         </Row>
       </Container>

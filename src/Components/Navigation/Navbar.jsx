@@ -5,13 +5,15 @@ import "./Navbar.css";
 
 const NavbarBS = () => {
  return (<div>
-    <Navbar expand="lg">
-      <Container>
-        <Navbar.Brand href="#home">
+    <Container>
+       <Navbar className="navbar-header" expand="lg">
+       <Container>
+        <Navbar.Brand className="mx-auto" href="#home">
          <h1 className="navbar-brand__text">Aroma</h1>
         </Navbar.Brand>
       </Container>
     </Navbar>
+    </Container>
    </div>);
 };
 

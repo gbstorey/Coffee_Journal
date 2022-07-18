@@ -1,23 +1,31 @@
 .coffee-image {
- width: 100%;
- border: 3px solid black;
- box-shadow: 0 0 200px 0px black inset, 0 0 3px 0px black;
+ width: 70%;
+ border: 3px solid #361500;
+ box-shadow: 0 0 200px 0px #361500 inset, 0 0 3px 0px #361500;
+ margin: 20px 0;
+ max-width: 274.688px;
+}
+
+.coffee-text-container {
+ padding: 10px 20px 5px 20px;
+ border-radius:20px;
+ background: linear-gradient(45deg,#fed717, #feb537) ;
+ max-width: 296px;
+ margin: 0 auto;
 }
 
 .coffee-text {
- font-size: 3.5rem;
+ font-size: 1.7rem;
  font-weight:700;
  color: #361500;
- margin-top:30px;
 }
 
 .coffee-blurb {
  color: #361500;
- font-size: 1.5rem;
- font-weight:500;
+ font-size: 1.0rem;
+ font-weight:600;
 }
 
 .coffee-container {
  margin: 0 auto;
- text-align: left;
 }
