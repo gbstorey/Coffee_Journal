@@ -1,0 +1,26 @@
+.titleLabel {
+ margin: 0px auto 10px auto;
+ padding: 5px 10px;
+ border-radius:20px;
+ max-width: 296px;
+ font-size: 1.7rem;
+ font-weight:700;
+ color: #361500;
+}
+
+.formContainer {
+ max-width: 325px;
+ margin: 0 auto;
+}
+
+.textArea {
+ text-align: center;
+ border: 1px solid black;
+}
+
+.button {
+ background: linear-gradient(45deg, #feb537, #fed717);
+ color: #361500;
+ font-weight:700;
+ border: 2px solid #361500;
+}
