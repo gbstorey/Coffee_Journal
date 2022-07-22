@@ -1,6 +1,7 @@
 .navbar-brand__text {
- font-size: 4.5rem;
+ font-size: 1.3rem;
  font-weight:700;
+ margin:50px 0px 20px;
  color: #733e26;
- font-family: 'Playball', cursive;
+ font-family: 'Lora', serif;
 }

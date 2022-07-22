@@ -8,8 +8,8 @@ const NavbarBS = () => {
     <Container>
        <Navbar className="navbar-header" expand="lg">
        <Container>
-        <Navbar.Brand className="mx-auto" href="#home">
-         <h1 className="navbar-brand__text">Aroma</h1>
+        <Navbar.Brand href="#home">
+         <h1 className="navbar-brand__text">Experience Coffee</h1>
         </Navbar.Brand>
       </Container>
     </Navbar>

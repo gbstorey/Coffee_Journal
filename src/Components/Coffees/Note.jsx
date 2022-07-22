@@ -3,10 +3,13 @@ import Col from "react-bootstrap/Col";
 
 const Note = (props) => {
   return (
-    <Col>
-      <div><p>
-      {props.text}
-      </p></div>
+    <Col md={6}>
+      <div>
+        <p>{props.title}</p>
+      </div>
+      <div>
+        <p>{props.body}</p>
+      </div>
     </Col>
   );
 };

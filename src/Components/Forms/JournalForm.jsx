@@ -2,7 +2,17 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import styles from "./JournalForm.module.css";
 
+
 function JournalForm() {
+  const submitHandler = (event) => {
+    let data = {
+      title: "test",
+      body: event.target.value
+    }
+  }
+
+
+
   return (
     <Form className={`${styles.formContainer}`}>
       <Form.Group className="mb-3" controlId="formBasicPassword">
